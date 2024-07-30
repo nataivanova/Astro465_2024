@@ -9,12 +9,18 @@
    logRho ! log10(density) at center of zone
    logP ! log10(pressure) at center of zone
 
-   csound ! sound speed
-   grada ! dlnT_dlnP at constant S
-   gradr ! dlnT/dlnP required for purely radiative transport
-   tau   ! optical depth
-   conv_vel ! convection velocity (cm/sec)
+   ! add_abundances
+   h1
+   h2
+   he3
+   he4
+   li7
+   c12
+   n14
+   o16
+
+!# nuclear reactions
+   
 
 
-   !eps_nuc ! ergs/g/sec from nuclear reactions (neutrinos subtracted)
-   !add_abundances ! this adds all of the isos that are in the current net
+ 
